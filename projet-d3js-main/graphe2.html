@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css" />
+  <title> Vélos mécaniques et électriques par commune</title>
+  </head>
+
+ <body>
+  <select id="locality-dropdown" class="nice-select" name="locality" onChange="update()">
+  </select>  
+  <div id="barchart"></div>
+  <script src="./lib/d3.min.js" charset="utf-8"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="./graphe2.js"></script>
+ </body>
+</html>
